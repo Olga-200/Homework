@@ -1,0 +1,36 @@
+*{
+	box-sizing: border-box;
+}
+.border{
+	display: flex;
+	box-shadow: 0 0 20px rgb(165, 240, 230);
+	border: 1px solid #6ebdb3;
+	width: 70%;
+	margin-left: 15%;
+	padding-left: 30px;
+	flex-flow: row wrap;
+}
+
+.main{ 
+	display: flex;
+	flex-flow: row wrap;
+	width: 70%;
+	height: auto;
+	margin-top: -70%;
+	margin-left: 28%;       
+}
+.aside p{
+	width: 22%;
+}
+.all-columns{
+	display: flex;
+	margin-top: 0%;
+}
+
+img{
+	max-width: 100%;
+}
+.column { 
+padding: 2%;
+padding-bottom: 0;
+}

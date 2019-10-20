@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style6.css">
+	<meta name="viewport" content="width=devic-width, initial-scale=1.0, maximum-scale=1.0 minimum-scale=1.0">
+</head>
+<body>
+	<form action="#" class="form">
+		<h2>Hotel Booking</h2><hr>
+		<div class="name">
+			<label for="name">Name <strong>*</strong></label>
+	
+		<div class="input">
+			<input type="text" id="name" name="first name" autofocus required>
+			<p>First Name</p>
+		</div>
+		<div class="input" id="last">
+			 <input type="text" id="name" name="last name" required>
+			 <p>Last Name</p>
+		</div>
+		</div>
+
+		<div class="email">
+			<label for="mail">E-mail <strong>*</strong></label>
+			<div class="input">
+			<input type="email" id="mail" name="email" placeholder="ex: myname@example.com" required>
+			<p>example@example.com</p>
+			</div>
+		
+		</div>
+
+		<div class="roomtype">
+
+			<label for="type">Room Type</label>
+			<div class="input" id="roomtype">
+				<input list="browsers" id="type" name="room">
+				<datalist id="browsers">
+				<option value="SNGL, single"></option>
+				<option value="Superior"></option>
+				<option value="De Luxe"></option>
+				<option value="Studio"></option>
+				<option value="QDPL, quadriple, quarter"></option>
+				<option value="Appartment,APT"></option>
+				<option value="Family Studio"></option>
+			</datalist>
+			</div>
+		</div>
+
+		<div class="number-guests">
+			<label for="guests">Number of Guests<strong>*</strong></label>
+			<div class="input">
+				<input type="number" id="guests" name="number-guests" value="0" required>
+			</div>	
+		</div>
+
+		<div class="arrival-date-time">
+			<label for="date-time">Arrival Date & Time<strong>*</strong></label>
+			<div class="input">
+				<input type="date-time" id="date-time" placeholder="09-25-2019" required>
+			</div>
+		</div>
+
+
+
+		<div class="time">
+			<div class="input"  id="hours">
+				<select name="hours" id="hours" required>
+					<option value="zero">00</option>
+					<option value="one">1</option>
+					<option value="two">2</option>
+					<option value="three">3</option>
+					<option value="four">4</option>
+					<option value="five">5</option>
+					<option value="six">6</option>
+					<option value="seven">7</option>
+					<option value="eight">8</option>
+					<option value="nine">9</option>
+					<option value="ten">10</option>
+					<option value="eleven">11</option>
+					<option value="twelve">12</option>
+				</select>
+			
+				<p>Hour</p>
+			</div>
+
+			<div class="input"  id="minutes">
+			<select name="minutes" id="minutes" required>
+				<option value="zere">00</option>
+				<option value="five">5</option>
+				<option value="ten">10</option>
+				<option value="fifteen">15</option>
+				<option value="twenty">20</option>
+				<option value="twenty-five">25</option>
+				<option value="thirty">30</option>
+				<option value="thirty-five">35</option>
+				<option value="forty">40</option>
+				<option value="forty-five">45</option>
+				<option value="fifty">50</option>
+				<option value="fifty-five">55</option>
+			</select>
+				<p>Minutes</p>
+			</div>
+
+			<div class="input" id="am">
+				<select name="am-pm" id="am" required>
+					<option value="am">AM</option>
+					<option value="pm">PM</option>
+				</select>
+			</div>
+		
+		</div>
+
+		<div class="departure">
+			<label for="departure">Departure Date <strong>*</strong></label>
+		<div class="month">
+			<select name="departure-date" id="departure" required>
+			<option value="#"></option>
+			<option value="january">January</option>
+			<option value="february">February</option>
+			<option value="march">March</option>
+			<option value="april">April</option>
+			<option value="may">May</option>
+			<option value="june">June</option>
+			<option value="july">July</option>
+			<option value="august">August</option>
+			<option value="september">September</option>
+			<option value="oktober">Oktober</option>
+			<option value="november">November</option>
+			<option value="desember">Desember</option>
+		</select>
+		<p>Month</p>
+		</div>
+
+		<div class="day">
+			<select name="departure-date" id="departure" required>
+				<option value="#"></option>
+				<option value="monday">Monday</option>
+				<option value="tuesday">Tuesday</option>
+				<option value="wednesday">Wednesday</option>
+				<option value="thursday">Thursday</option>
+				<option value="friday">Friday</option>
+				<option value="saturday">Saturday</option>
+				<option value="sanday">Sanday</option>
+			</select>
+			<p>Day</p>
+		</div>
+
+		<div class="year">
+			<select name="departure-date" id="departure" required>
+				<option value="#"></option>
+				<option value="2019">2019</option>
+				<option value="2020">2020</option>
+				<option value="2021">2021</option>
+				<option value="2022">2022</option>
+			</select>
+			<p>Year</p>
+		</div>
+	
+		</div>
+
+		<div class="free-pickup">
+			<label for="pickup">Free Pickup? <strong>*</strong></label>
+			<div class="input">
+				<input type="radio" class="radio" name="pickup" id="pickup" value="yes">Yes Please!-Pick me up on arrival!<br>
+				<input type="radio" class="radio" name="pickup" id="pickup" value="no">No Thanks- i'll make my own way there
+			</div>
+		</div>
+
+	<div class="flight">
+		<label for="flight">Flight Number</label>
+		<div class="input">
+			<input type="text" id="flight">
+		</div>
+	
+	</div>		
+
+<div class="special">
+	<label for="requests">Special Requests</label>
+<div class="input">
+	<textarea name="text" id="requests"></textarea>
+</div>
+</div>
+
+	<button type="submit">Submit</button>
+		
+	</form>
+	
+</body>
+</html>

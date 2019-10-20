@@ -1,0 +1,21 @@
+
+.body{
+	display: flex;
+	flex-flow: row wrap;
+	box-shadow: 0 0 20px rgb(165, 240, 230);
+	border: 1px solid #6ebdb3;
+	width: 70%;
+	height: auto;
+	margin-left: 15%;
+	padding: 2%;
+}
+img{
+	max-width: 100%;
+}
+.column{ 
+padding: 2%;
+}
+.all-columns{
+	display: flex;
+	align-items: center;
+}
