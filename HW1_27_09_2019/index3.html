@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form</title>
+</head>
+<body>
+		<nav> <a href="./index.html" target="_blank">......Page-1......</a>
+		<a href="./index2.html" target="_blank">......Page-2......</a>
+</nav>
+	<form action="#" method="get">
+
+		<h3>Registration</h3>
+
+		<p> <strong> <label for="nam">User name:</label></strong>
+
+			<input type="text" placeholder="Name:" id="nam" name="name" maxlength="15" autofocus required>
+		</p>
+
+		<p> <strong> <label for="@">Email:</label></strong>
+
+			<input type="email" id="@" placeholder="Email:" name="email">
+		</p>
+
+		<p><strong><label for="pas">Password:</label></strong>
+			<input type="Password" id="pas" name="password" required>
+		</p>
+
+	 <strong>Sex:</strong>
+
+		<p>	<input type="radio" name="sex" value="male" id="male">
+			<label for="male">Male</label>
+		</p>
+
+		<p><input type="radio" name="sex" value="female" id="female">
+			<label for="male">Female</label>
+		</p>
+
+		<p><input type="radio" name="sex" value="other" id="other">
+			<label for="male">Other</label>
+		</p>
+	
+
+	<p>
+		<strong><label for="age">Age:</label></strong>
+		<input type="number" name="age" id="age" required> 
+	</p>
+
+		<p><strong>Birthday:</strong>
+			<input type="date" name="birthday">
+		</p>
+
+		<p> <strong><label for="yes">Married:</label></strong>
+			<input type="checkbox" name="check" id="yes">
+			
+		</p>
+
+		<p> <strong> <label for="tel">Phone:</label> </strong>
+
+			<input type="tel" name="phone" id="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+		</p>
+
+		<p>
+			<strong><label for="city">City:</label></strong>
+			<input list="browsers" id="city" name="browser">
+			<datalist id="browsers">
+				<option value="Dnipro">Dnipro</option>
+				<option value="Poltava">Poltava</option>
+				<option value="Kramatorsk">Kramatorsk</option>
+				<option value="Kharkov"></option>
+				<option value="Lugansk"></option>
+				<option value="Lvov"></option>
+				<option value="Rovno"></option>
+			</datalist>
+		</p>
+
+		<p>
+		<textarea name="text" id="comment" placeholder="Comment...." cols="30" rows="10"></textarea>
+		</p>
+
+		<p>
+		<button type="submit">Save</button>
+		</p>
+
+		<p>
+		<input type="reset" id="res" value="Reset" name="reset">
+		</p>
+
+	</form>
+</body>
+</html>
