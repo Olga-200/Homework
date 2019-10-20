@@ -1,0 +1,254 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/* Home.Page-1 */
+
+menu{
+	background: #147e5a;
+	margin-bottom: 2%;
+}
+menu li{
+	display: inline-block;
+	color: #15156d;
+	padding: 10px 20px;
+	border-right: 1px solid #15156d;
+}
+menu li a{
+	text-decoration: none;
+}
+menu li:last-child{
+	border-right: none;
+}
+
+/* Page-2*/
+
+ul li a{
+	display: block;
+	color:  #444;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+}
+ul li:first-child{
+	font-size: 24px;
+}
+
+ul li:last-child{
+	border-bottom: 1px solid #000;
+	width: 8%;
+}
+ul li a:hover{
+	text-decoration: underline;
+	color: #999;
+}
+
+.brands{
+	text-transform: uppercase;
+}
+
+li.brands::after{
+	content: '';
+	display: block;
+	height: 1px;
+	width: 8%;
+	background: #000;
+}
+
+/*Page-3*/
+
+/*Выпадающее меню*/
+.submenu {
+	position: absolute;
+	width: 5%;
+	background: #147e5a;
+	padding: 1% 1% 1% 1%;
+	margin-left: -2%;
+	text-align: center;
+	display: none;
+}
+.submenu li.page_3{
+	display: block;
+	position: relative;
+	font-size: 16px;
+	border: none;
+}
+.submenu li.page_3:first-child{
+	border-bottom: 1px solid #15156d;
+}
+.submenu li.page_3:last-child{
+	text-align: center;
+}
+
+li:hover >.submenu {
+	display: block;
+}
+
+.page-ice{
+	text-align: center;
+	color: #6a2c56;
+	margin-bottom: 2%;
+}
+.ice{
+	display: block;
+	margin: 0% 15% 2% 15%;
+	padding: 1% 0% 1% 0%;
+	border: 1px solid #6a2c56;
+	text-align: center;
+
+}
+p.ice:hover {
+	background: #eabddc;
+	
+}
+.ice a{
+	text-decoration: none;
+}
+.ice a:hover{
+	color: #fff;
+}
+.img-ice{
+	margin-left: 30%;
+	
+}
+/*Page-3.2*/
+
+.cupcake{
+	text-align: center;
+	margin: 2% 2%;
+}
+.main{
+	margin: 2% 2%;
+	width: 80%;
+}
+.section{
+	margin: 2% 2%;
+}
+.article{
+	text-align: center;
+	margin: 2% 0% 2% 15%;
+	width: 60%;
+}
+
+/*Page-3.3*/
+
+
+.cake{
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+section.main{
+	text-align: center;
+}
+#cake{
+	float: right;
+}
+footer.page3_3{
+	margin: 7% 0% 0% 70%;
+}
+.page3_3 a{
+	text-decoration: none;
+	color: #147e5a;
+}
+/*Page-4*/
+
+h1.page-pumpkin{
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 2%;
+}
+#pumpkin{
+	margin: 0% 4% 0% 4%;
+	float: left;
+}
+
+.pumpkin-line{
+	display: block;
+	border: 1px solid #147e5a;
+	border-top: none;
+	border-bottom: none;
+	border-left: none;
+	width: 75%;
+}
+.pumpkin-line p{
+	padding-left: 4%;
+}
+address{
+	color: #147e5a;
+	margin-top: 3%;
+	margin-left: 60%;
+	width: 30%;
+	text-align: center;
+}
+
+/*Page-5*/
+
+table{
+	border-collapse: collapse;
+	width: 100%;
+	margin-top: 8%;
+}
+td{
+	padding-left: 1%;
+}
+tr, td, th{
+  border: 1px solid black;
+}
+
+tr th {
+	background: #9d999f;
+	color: #fff;
+}
+th, td{
+	height: 50px;
+}
+table tr:nth-child(odd){
+	background-color: #f2f2f2;
+}
+table td:hover {
+	background-color: #988a9e;
+}
+table td:last-child{
+	text-align: right;
+	padding-right: 1%;
+}
+table td:nth-child(3){
+	text-align: center;
+	padding: 0;
+}
+table td:nth-child(4){
+	text-align: center;
+	padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
